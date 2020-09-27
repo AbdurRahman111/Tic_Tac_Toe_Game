@@ -137,6 +137,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
+    //make a Dialog
     private void showDialog(String winnerText){
         new AlertDialog.Builder(this)
                 .setTitle(winnerText)
